@@ -1,70 +1,11 @@
-/* Global container class for centered content */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-/* Navigation Bar */
-.navbar {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #f0faff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  z-index: 1000;
-  padding: 1rem 0;
-}
-
-.navbar-logo {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #0b0f1c;
-}
-
-.navbar-buttons {
-  display: flex;
-  gap: 1rem;
-}
-
-.nav-button {
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-  font-weight: 500;
-}
-
-/* Login Button */
-.nav-button.login {
-  border: 1px solid #2a78ff;
-  color: #2a78ff;
-  background-color: transparent;
-}
-
-.nav-button.login:hover {
-  background-color: #dcecff;
-}
-
-/* Sign Up Button */
-.nav-button.signup {
-  background-color: #2a78ff;
-  color: #fff;
-  border: none;
-}
-
-.nav-button.signup:hover {
-  background-color: #1e64d6;
-}
-
 /* Hero section */
 .hero-div {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
-  padding: 6rem 1.5rem 3rem; /* top padding accounts for fixed navbar */
+  /* padding: 6rem 1.5rem 3rem; top padding accounts for fixed navbar */
   background-color: #f0faff;
+  margin-top: 0;
+  padding-top: 1.5rem;;
 }
 
 /* Title styling */
@@ -76,13 +17,19 @@
 
 /* Paragraph */
 .hero-content {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin: 0 auto 2rem;
   max-width: 600px;
   color: #5f6c7b;
   line-height: 1.6;
 }
 
+.hero-a {
+  display: flex;
+  justify-content: center; /* optional, centers the buttons */
+  gap: 2rem; /* adjusts spacing between buttons */
+  margin-top: 1.5rem; /* optional vertical spacing from above */
+}
 /* CTA button */
 .hero-button {
   display: inline-block;
@@ -108,6 +55,7 @@
   flex-wrap: wrap;
   margin-top: 2rem;
   gap: 4rem;
+  padding-bottom: 2rem;
 }
 
 /* Individual stat block */
@@ -131,26 +79,62 @@
   line-height: 1.2;
 }
 
-/* Responsive tweaks */
-@media screen and (max-width: 768px) {
-  .hero-title {
-    font-size: 2rem;
-  }
 
-  .hero-button {
-    font-size: 1rem;
-    padding: 0.6rem 1.2rem;
-  }
 
-  .hero-number {
-    gap: 2rem;
-  }
 
-  .stat-number {
-    font-size: 1.8rem;
-  }
 
-  .stat-label {
-    font-size: 0.95rem;
-  }
+.afterhero-title{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.afterhero-content{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #5f6c7b;
+}
+
+.card-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 30px;
+  padding: 20px;
+}
+
+.card{
+  border: 1px solid rgb(197, 197, 197);
+  background-color: #c3c5c891;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  color: black;
+}
+
+.card .card-text{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #5f6c7b;
 }
