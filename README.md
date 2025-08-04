@@ -71,9 +71,3 @@ We welcome contributions! Feel free to raise issues, submit PRs, or suggest new 
 Made with ❤️ by [Anmol](https://github.com/AnmolGithubx)
 
 Got questions? Reach out at: [a56231919@gmail.com](mailto:a56231919@gmail.com)
-
-<<<<<<< HEAD
----
-=======
----
->>>>>>> 563d06c893d1594744671a0e465bfffece235184
