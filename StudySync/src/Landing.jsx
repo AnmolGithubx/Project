@@ -151,6 +151,55 @@ function Landing() {
         </div>
       </div>
     </div>
+
+    <div className="pricing-section">
+      <h2 className='price-title'>Choose Your Plan</h2>
+      <p className="subtitle">Start free, upgrade when you need more</p>
+
+      <div className="plans-container">
+        {/* Free Plan */}
+        <div className="plan-card">
+          <h3>Free</h3>
+          <p className="price">₹0<span>/month</span></p>
+          <ul>
+            <li>✅ Join 5 study rooms</li>
+            <li>✅ Basic flashcards</li>
+            <li>✅ 2 mock tests/month</li>
+            <li>✅ Community support</li>
+          </ul>
+          <button className="plan-button">Get Started</button>
+        </div>
+
+        {/* Pro Plan */}
+        <div className="plan-card pro">
+          <div className="badge">Most Popular</div>
+          <h3>Pro</h3>
+          <p className="price">₹999<span>/month</span></p>
+          <ul>
+            <li>✅ Unlimited study rooms</li>
+            <li>✅ Advanced flashcards with AI</li>
+            <li>✅ Unlimited mock tests</li>
+            <li>✅ Priority mentorship</li>
+            <li>✅ Detailed analytics</li>
+          </ul>
+          <button className="plan-button white">Start Pro Trial</button>
+        </div>
+
+        {/* Premium Plan */}
+        <div className="plan-card">
+          <h3>Premium</h3>
+          <p className="price">₹1999<span>/month</span></p>
+          <ul>
+            <li>✅ Everything in Pro</li>
+            <li>✅ 1-on-1 mentorship</li>
+            <li>✅ Custom study plans</li>
+            <li>✅ 24/7 priority support</li>
+            <li>✅ Exam guarantee program</li>
+          </ul>
+          <button className="plan-button">Go Premium</button>
+        </div>
+      </div>
+    </div>
     </>
   );
 }
