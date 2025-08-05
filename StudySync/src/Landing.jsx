@@ -200,6 +200,16 @@ function Landing() {
         </div>
       </div>
     </div>
+
+    <div className="cta-wrapper">
+      <h2 className="cta-heading">Ready to Transform Your Study Experience?</h2>
+      <p className="cta-subtext">
+        Join thousands of successful students who chose StudySync for their exam preparation
+      </p>
+      <button className="cta-button">Start Your Journey Today</button>
+    </div>
+
+    
     </>
   );
 }
