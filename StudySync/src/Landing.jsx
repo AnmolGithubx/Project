@@ -1,4 +1,5 @@
 import './Landing.css';
+import Footer from './Footer';
 
 function Landing() {
   return (
@@ -209,7 +210,7 @@ function Landing() {
       <button className="cta-button">Start Your Journey Today</button>
     </div>
 
-    
+    <Footer />
     </>
   );
 }
