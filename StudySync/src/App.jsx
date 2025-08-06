@@ -6,10 +6,10 @@ import Signup from "./Signup";
 function App() {
   return (
     <>
-      {/* <Landing />
+      {/* <Landing /> */}
       <Dashboard />
-      <Login /> */}
-      <Signup />
+      {/* <Login />
+      <Signup /> */}
     </>
   );
 }
