@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8fbff;
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentor-page {
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center headings and filters */
+  background: #f8fbff;
+}
+
+.mentor-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mentor-subtitle {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Center filters */
+}
+
+.filter-select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.mentor-card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Center cards */
+}
+
+.mentor-card {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 300px;
+  text-align: left; /* Keep card content aligned left */
+}
+
+.mentor-avatar {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #6a5acd, #3b82f6);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.mentor-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mentor-subject {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.mentor-rating {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.mentor-tags {
+  margin: 8px 0;
+}
+
+.tag {
+  background: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.mentor-availability {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.available-today {
+  color: #ef4444;
+}
+
+.available-tomorrow {
+  color: #f97316;
+}
+
+.available-now {
+  color: #10b981;
+}
+
+.view-profile-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-profile-btn:hover {
+  background: #1d4ed8;
+}
+
+.premium-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #f97316, #dc2626);
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  margin-top: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+
+.premium-left {
+  max-width: 60%;
+}
+
+.premium-left h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.premium-left p {
+  margin-bottom: 15px;
+}
+
+.premium-left ul {
+  padding-left: 20px;
+  list-style-type: lower-roman;
+  padding: 20px;
+  text-align: left;
+}
+
+.premium-left li{
+    padding: 5px;
+}
+
+.premium-right {
+  text-align: center;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.per-month {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.enroll-btn {
+  background: white;
+  color: #f97316;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.enroll-btn:hover {
+  background: #ffe5d0;
+}
