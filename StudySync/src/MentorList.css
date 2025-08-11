@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #f8fbff;
-  height: 100vh; /* Full height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .mentor-page {
   font-family: Arial, sans-serif;
