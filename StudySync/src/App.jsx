@@ -3,6 +3,8 @@ import Dashboard from "./Dashboard";
 import Login from "./Login";
 import Signup from "./Signup";
 import MentorList from "./MentorList";
+import MockTest from "./MockTest";
+import Flashcards from "./FLashCards";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Login />
       <Signup />
       <MentorList />
+      <MockTest />
+      <Flashcards />
     </>
   );
 }
