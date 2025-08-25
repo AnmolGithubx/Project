@@ -1,5 +1,6 @@
 import './Landing.css';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 
 function Landing() {
@@ -12,7 +13,7 @@ function Landing() {
             Join thousands of students in collaborative study rooms. Share knowledge, track progress, and ace your competitive exams with our comprehensive learning platform.
           </p>
           <div className='hero-a'>
-            <a href="./src/Signup.jsx" className="hero-button">Start Learning Free</a>
+            <a href="/signup.jsx" className="hero-button">Start Learning Free</a>
             <a href="#" className="hero-button">Watch Demo</a>
           </div>
           {/* <div className='hero-a'>
